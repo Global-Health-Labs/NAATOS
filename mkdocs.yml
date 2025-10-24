@@ -44,7 +44,6 @@ markdown_extensions:
   - abbr
   - attr_list
   - def_list
-  - markdown_grid_tables
   - md_in_html
   - pymdownx.blocks.caption
   - admonition
