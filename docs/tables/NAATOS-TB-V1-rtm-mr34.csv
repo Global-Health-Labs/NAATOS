@@ -1,0 +1,8 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-63,Burn safety</br>(Accepted),NAATOS TB V1 must not cause skin temperature above 60 °C after five seconds of contact to any surface.,SR-308,[PM] Burn safety - exposure</br>(Accepted),The PM shall not have any areas accessible by a user's finger (defined as sphere of 1 cm diameter) with temperatures above 60 °C
+,,,SR-300,[PM] Burn safety - max temp</br>(Accepted),The PM shall not exceed a configurable max temperature in heating zones
+,,,SR-287,[SPM] Burn safety</br>(Accepted),The SPM shall not have any areas accessible by a user's finger (defined as sphere of 1 cm diameter) with temperatures above 60 °C
+PR-60,Sample prep safety</br>(Accepted),NAATOS TB V1 must reduce the risk of transmission of infectious agent of TB from potentially infectious sample to operator.,SR-420,[SCC] Sample prep safety</br>(Accepted),The SCC shall be sterile packaged
+,,,SR-223,[SPM] Sample prep safety</br>(Accepted),The SPM shall not melt the tube
+,,,SR-224,[SPM] Sample prep safety - STC interface</br>(Accepted),The SPM shall fit a specified Tube (SPC) in a tube holder
+,,,SR-225,[SPM] Sample prep safety - STC shaking</br>(Accepted),"While ""system-run-shake"" sub-state is active, the SPM shall not allow the tube to lose its fit in the tube holder"

@@ -1,0 +1,19 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-9,Mains power time</br>(Accepted),NAATOS TB V1 must require no more than 8 hours of mains power per day.,SR-303,[PM] Mains power time</br>(Accepted),The PM shall take no longer than 6 hours to charge
+,,,SR-261,[SPM] Mains power time</br>(Accepted),The SPM shall take no longer than 6 hours to charge
+PR-7,Power requirements</br>(Accepted),NAATOS TB V1 must not rely on mains power during test operation.,SR-336,"[PM] Power requirements - ""battery-low"" state</br>(Accepted)","While ""stand-by"" state is active, if battery SoC is below a configurable threshold, then the PM shall transition to ""battery-low"" state"
+,,,SR-296,[PM] Power requirements - battery</br>(Accepted),The PM shall have a battery
+,,,SR-302,[PM] Power requirements - compensation</br>(Accepted),The PM shall compensate for battery temperature during charge/discharge cycle
+,,,SR-328,[PM] Power requirements - SoC</br>(Accepted),The PM shall measure battery state of charge (SoC)
+,,,SR-297,[PM] Power requirements - USB-C</br>(Accepted),The PM battery shall be charged by USB-C
+,,,SR-245,[SPM] Power requirements</br>(Accepted),The SPM shall detect USB plugged-in/unplugged state
+,,,SR-260,[SPM] Power requirements</br>(Accepted),The SPM shall compensate for battery temperature during charge/discharge cycle
+,,,SR-243,[SPM] Power requirements</br>(Accepted),The SPM shall measure battery state of charge (SoC)
+,,,SR-252,[SPM] Power requirements</br>(Accepted),"While ""stand-by"" state is active, if battery SoC is below a configurable threshold, then the SPM shall transition to ""battery-low"" state"
+,,,SR-236,[SPM] Power requirements</br>(Accepted),The SPM shall have a battery
+,,,SR-244,[SPM] Power requirements</br>(Accepted),The SPM shall detect USB charging on/off state
+PR-8,Product workspace dimensions</br>(Accepted),"NAATOS TB V1 must fit on a table within a space ≤ 60 cm deep, 90 cm wide, and 45 cm high.",SR-323,[PM] Product workspace dimensions</br>(Accepted),"The PM shall be no larger than 30 cm deep, 45 cm wide, and 45 cm high"
+,,,SR-389,[SCC] Product workspace dimensions</br>(Accepted),"The SCC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"
+,,,SR-280,[SPM] Product workspace dimensions</br>(Accepted),"The SPM shall be no larger than 30 cm deep, 45 cm wide, and 45 cm high"
+,,,SR-388,[STC] Product workspace dimensions</br>(Accepted),"The STC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"
+,,,SR-362,[TC] Product workspace dimensions</br>(Accepted),"The TC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"

@@ -1,0 +1,11 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-40,Time to result</br>(Accepted),NAATOS TB V1 must produce a result within 60 min (including sample prep time).,SR-344,[PM] Time to result - amplification</br>(Accepted),"While ""system-run-amplification-hold"" sub-state is active, the PM shall maintain primary and secondary heating zone temperatures for a configurable heating duration (default 30 mins)"
+,,,SR-341,[PM] Time to result - amplification ramp</br>(Accepted),"When ""system-run-amplification-heat"" sub-state begins, the PM shall ramp primary and secondary heating zone temperatures up to a configurable amplification temperature setpoint (default 65 °C) in under 2 min"
+,,,SR-307,[PM] Time to result - measure time</br>(Accepted),The PM shall measure time continuously
+,,,SR-349,[PM] Time to result - valve</br>(Accepted),"While ""system-run-valve-hold"" sub-state is active, the PM shall maintain secondary heating zone temperature for a configurable heating duration (default 5 mins)"
+,,,SR-347,[PM] Time to result - valve ramp</br>(Accepted),"When ""system-run-valve-heat"" sub-state begins, the PM shall ramp secondary heating zone temperatures up to a configurable valve temperature setpoint (default 93 °C) in under 2 min"
+,,,SR-266,[SPM] Time to result</br>(Accepted),The SPM shall measure time continuously
+,,,SR-218,[SPM] Time to result</br>(Accepted),"When ""system-run-heat"" sub-state begins, the SPM shall ramp heating zone temperature up to a configurable temperature setpoint (default 95 °C) in under 2 min"
+,,,SR-220,[SPM] Time to result</br>(Accepted),"While ""system-run-hold"" sub-state is active, the SPM shall maintain heating zone temperature for a configurable heating duration (default 4 mins)"
+,,,SR-233,[SPM] Time to result</br>(Accepted),"While ""system-run-shake"" sub-state is active, the SPM shall maintain tube holder shaking speed for a configurable shaking duration (default 2 mins)"
+,,,SR-365,[TC] Time to result - assay</br>(Accepted),"When the TC is inserted into the PM, the TC shall return a result in ≤ 47 min"

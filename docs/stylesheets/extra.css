@@ -7,6 +7,27 @@
     white-space: normal !important;
 }
 
+.risk5 {
+  background-color: red;
+  color: black;
+}
+.risk4 {
+  background-color: orange;
+  color: black;
+}
+.risk3 {
+  background-color: yellow;
+  color: black;
+}
+.risk2 {
+  background-color: green;
+  color: white;
+}
+.risk1 {
+  background-color: blue;
+  color: white;
+}
+
 .wy-table-responsive {
     overflow : visible !important;
 }

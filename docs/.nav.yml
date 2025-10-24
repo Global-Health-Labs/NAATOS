@@ -1,10 +1,7 @@
-  # - Project Overview:
-  #   - Project Introduction: index.md
-  # #   - Quick Start Guide: DROP_quickstart.md
-  #   - DROP Installation: Installation Instructions.md
-  #   - Troubleshooting Support: Common Errors
-  #   - Glossary: glossary.md
-  #   - Contributors: authors.md
-  # - NAATOS TB V1: 
-  # - NAATOS V2: 
-  # - Stand-alone TB sample prep module: Web App
+nav:
+  - Project Overview:
+    - Introduction: index.md
+    - Project Team: team.md
+  - NAATOS TB V1: TB-V1
+  - NAATOS V2: V2
+  - NAATOS V0: V0

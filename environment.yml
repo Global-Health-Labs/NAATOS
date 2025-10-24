@@ -5,8 +5,8 @@
 #     "no-inline-html": false
 # }
 
-# This environment file is for the nPOC-BB project, which uses mkdocs and various plugins.
-name: nPOC_BB
+# This environment file is for the NAATOS project, which uses mkdocs and various plugins.
+name: NAATOS
 channels:
   - conda-forge
 dependencies:
@@ -15,8 +15,6 @@ dependencies:
   - pip:
       - mkdocs==1.6.1
       - mkdocs-awesome-nav==3.1.1
-      # - mkdocs-get-deps==0.2.0
-      # - mkdocs-git-revision-date-localized-plugin==1.4.5
       - mkdocs-macros-plugin==1.3.7
       - mkdocs-material==9.6.12
       - mkdocs-material-extensions==1.3.1

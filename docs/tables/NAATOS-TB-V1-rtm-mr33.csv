@@ -1,0 +1,65 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-50,Automate assay transfer</br>(Accepted),NAATOS TB V1 must automate assay transfer from amplification to detection.,SR-372,[TC] Automate assay transfer</br>(Accepted),The TC shall contain a reversable fluidic barrier between amplification and detection reactions
+PR-62,External reagents</br>(Obsolete),NAATOS TB V1 must use no more than two external reagents for sample preparation.,,,
+PR-54,Indications</br>(Accepted),NAATOS TB V1 must visually communicate progress and completion of system processes.,SR-305,[PM] Indications - access</br>(Accepted),"The PM shall prevent access to configuration or logs while the device is in ""system-run"" state."
+,,,SR-329,[PM] Indications - configuration</br>(Accepted),The PM shall allow configurable indications (defined in Table Y) of states and sub-states via indicators
+,,,SR-340,[PM] Indications - data logging</br>(Accepted),"While ""system-run"" state is active, the PM shall log events with UTC timestamps, including battery state, board temperature, and heating zone temperature"
+,,,SR-335,[PM] Indications - event logging</br>(Accepted),"While ""power-off"" state is not active, the PM shall ad-hoc log events with UTC timestamps, including state start, state end, change in battery sufficient/insufficient charge state, and errors/alerts"
+,,,SR-304,[PM] Indications - log file</br>(Accepted),The PM shall store a log file on non-volatile storage.
+,,,SR-306,[PM] Indications - logging rate</br>(Accepted),The PM shall allow configuration of event logging rate
+,,,SR-263,[SPM] Indications</br>(Accepted),"The SPM shall prevent access to configuration or logs while the device is in ""system-run"" state."
+,,,SR-264,[SPM] Indications</br>(Accepted),"While ""system-run"" state is active, the SPM shall log events with UTC timestamps, including battery state, board temperature, heating zone temperature, and motor speed"
+,,,SR-257,[SPM] Indications</br>(Accepted),The SPM shall allow configurable notifications (defined in Table X) of states and sub-states via indicators
+,,,SR-267,[SPM] Indications</br>(Accepted),"While ""power-off"" state is not active, the SPM shall ad-hoc log events with UTC timestamps, including state start, state end, change in battery sufficient/insufficient charge state, and errors/alerts"
+,,,SR-262,[SPM] Indications</br>(Accepted),The SPM shall store a log file on non-volatile storage.
+,,,SR-265,[SPM] Indications</br>(Accepted),The SPM shall allow configuration of event logging rate
+,,,SR-450,[TC] Indications</br>(Accepted),"When the TC is sealed, the TC shall visually indicate that it has been used (i.e., appear distinct from an unused TC)"
+PR-52,Language support</br>(Accepted),NAATOS TB V1 kit must include Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements.,SR-403,[PM] Language support</br>(Accepted),The PM shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,SR-401,[SCC] Language support</br>(Accepted),The SCC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,SR-402,[SPM] Language support</br>(Accepted),The SPM shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,SR-400,[STC] Language support</br>(Accepted),The STC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,SR-399,[TC] Language support</br>(Accepted),The TC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+PR-57,Manual preparation of samples</br>(Accepted),NAATOS TB V1 must not require precise measuring of volume or time required for any step and should instead require number of drops or visual markers.,SR-435,[STC] Manual preparation of samples - filter cap</br>(Accepted),The STC shall contain a filter of sufficient pore size to remove inert microbeads from solution when dispensing sample into TC
+,,,SR-439,[STC] Manual preparation of samples - squeezable tube</br>(Accepted),The STC shall be made of squeezable material
+,,,SR-447,[TC] Manual preparation of samples - LFA operation</br>(Accepted),"The TC shall accept sufficient volume of loaded sample required to operate the embedded LFA (i.e., to perform reagent rehydration and transport)"
+,,,SR-404,[TC] Manual preparation of samples - sample introduction</br>(Accepted),"While the TC is loaded with sample from the STC, the TC shall not require precise measuring of sample volume"
+PR-56,Packaging</br>(Deferred),NAATOS TB V1 must be packaged to ensure protection and maintain product integrity.,SR-418,[SCC] Packaging</br>(Accepted),The SCC shall be individually packaged
+PR-55,Portability</br>(Accepted),NAATOS TB V1 must be a hand transportable product that weighs less than < 1 kg.,SR-331,[PM] Portability</br>(Accepted),The PM shall weigh ≤ 0.4 kg
+,,,SR-288,[SPM] Portability</br>(Accepted),The SPM shall weigh ≤ 0.6 kg
+PR-53,Ready to use</br>(Accepted),NAATOS TB V1 must be ready to use without the need for additional components or accessories.,SR-423,[SCC] Ready to use - SCC non-inhibition</br>(Accepted),The SCC shall not inhibit reactions in the STC or TC
+,,,SR-416,[SCC] Ready to use - SCC with STC</br>(Accepted),The SCC shall have an integrated designated breakpoint within a distance from the end of the swab head that is less than the interior height of the STC
+,,,SR-436,[STC] Ready to use</br>(Accepted),"The STC shall contain a resealable, leak-proof dropper cap that is compatible with direct sample transfer from STC to TC without any ancillary tools, consumables, aides, or additional user steps"
+,,,SR-437,[STC] Ready to use - free-standing</br>(Accepted),The STC tube shall be free-standing on a flat surface and not require any type of rack or ancillary aid for proper function
+,,,SR-438,[STC] Ready to use - STC integrity</br>(Accepted),"When heated to an internal liquid temperature of 95 +/- 2 °C, the STC shall not melt, deform, or leach reaction inhibitors"
+,,,SR-466,[STC] Ready to use - STC with TC</br>(Accepted),The STC shall load sample into the TC at a mutually defined interface
+,,,SR-448,[TC] Ready to use</br>(Accepted),"The TC shall load sample from the STC without any ancillary tools, consumables, aides, or additional user steps"
+,,,SR-452,[TC] Ready to use - TC integrity</br>(Accepted),"When the TC is heated to required operating temperatures, the TC shall not melt, deform, or leaching reaction inhibitors"
+,,,SR-378,[TC] Ready to use - TC with PM</br>(Accepted),The TC shall load into the PM at a mutually defined interface
+PR-51,Reagent integration</br>(Accepted),"NAATOS TB V1 must store all chemical and biological reagents required for completing all diagnostic steps of the assay must be integrated into single-use disposable(s), including reagents for amplification, lysis, detection, and internal controls.",SR-426,[STC] Reagent integration - bead-beating</br>(Accepted),The STC shall contain inert microbeads to support bead-beating
+,,,SR-429,[STC] Reagent integration - buffer flow rate</br>(Accepted),"The STC shall contain an aqueous buffer that is capable of transport in porous materials at a flow rate within 50% of Tris buffer, pH 8"
+,,,SR-428,[STC] Reagent integration - buffer lysis compatibility</br>(Accepted),The STC shall contain an aqueous buffer that is compatible with bacterial cell lysis
+,,,SR-431,[STC] Reagent integration - buffer reaction compatibility</br>(Accepted),The STC shall contain an aqueous buffer that does not inhibit reactions in the STC or TC
+,,,SR-430,[STC] Reagent integration - buffer rehydration compatibility</br>(Accepted),The STC shall contain an aqueous buffer that is capable of rehydrating dried amplification reagents
+,,,SR-440,[STC] Reagent integration - buffer single use</br>(Accepted),The STC shall contain a buffer fill volume sufficient for a single use only
+,,,SR-433,[STC] Reagent integration - buffer temperature compatibility</br>(Accepted),The STC shall contain an aqueous buffer that is compatible with TC materials at temperatures ≤ 100 °C
+,,,SR-432,[STC] Reagent integration - buffer valve compatibility</br>(Accepted),The STC shall contain an aqueous buffer that is compatible with any valves or valving materials contained within the test consumable at temperatures up to and including the max System temp.
+,,,SR-374,[TC] No cold chain - amplification</br>(Accepted),"While the TC is not loaded with sample, the TC shall store dry amplification reagents"
+,,,SR-376,[TC] No cold chain - detection</br>(Accepted),"While the TC has not been operated by the PM, the TC shall store dry detection reagents"
+,,,SR-458,[TC] Reagent integration - IPC primers</br>(Accepted),The TC shall contain nucleic acid amplification reagents that amplify DNA control templates
+,,,SR-457,[TC] Reagent integration - IS1080 primers</br>(Accepted),The TC shall contain nucleic acid amplification reagents that amplify the Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,SR-461,[TC] Reagent integration - IS1081 capture</br>(Accepted),The TC shall contain detection reagents that capture amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,SR-464,[TC] Reagent integration - IS1081 labels</br>(Accepted),The TC shall contain detection reagents that label amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,SR-460,[TC] Reagent integration - IS6110 capture</br>(Accepted),The TC shall contain detection reagents that capture amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS6110
+,,,SR-463,[TC] Reagent integration - IS6110 labels</br>(Accepted),The TC shall contain detection reagents that label amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS6110
+,,,SR-456,[TC] Reagent integration - IS6110 primers</br>(Accepted),The TC shall contain nucleic acid amplification reagents that amplify the Mycobacterium tuberculosis DNA insertion sequence IS6110
+PR-59,Sample type</br>(Accepted),NAATOS TB V1 must support testing with a noninvasive tongue swab.,SR-425,[SCC] Sample type - access</br>(Accepted),The SCC shall have a shaft at least 5 cm long
+,,,SR-422,[SCC] Sample type - bacteria</br>(Accepted),The SCC shall be compatible with bacterial testing
+,,,SR-417,[SCC] Sample type - collection</br>(Accepted),"The SCC shall contain a regular, nylon-flocked head"
+,,,SR-424,[SCC] Sample type - swab integrity</br>(Accepted),"While in the STC during processing by the SPM, the SCC shall retain structural integrity"
+,,,SR-414,[SCC] Sample type - validation</br>(Accepted),The SCC shall be validated as a diagnostic specimen wherein it collects a sample from the dorsal area of the human tongue
+,,,SR-427,[STC] Sample type</br>(Accepted),The STC shall be of sufficient height to completely enclose the swab head when sealed
+PR-58,Specimen use</br>(Obsolete),NAATOS TB V1 must be able to provide a definitive diagnostic result from a single tongue swab specimen.,,,
+PR-61,Training and education</br>(Accepted),NAATOS TB V1 must be able to be operated by a user after reading IFU.,SR-298,[PM] Training and education</br>(Accepted),The PM shall provide graphics that indicate correct alignment of test device insertion
+,,,SR-247,[SPM] Training and education</br>(Accepted),The SPM shall have graphics that indicate a method for opening the lid
+,,,SR-248,[SPM] Training and education</br>(Accepted),The SPM shall have graphics that indicate the correct placement of the tube in the tube holder
+PR-49,User variability</br>(Obsolete),NAATOS TB V1 must tolerate ±33% variability of lysed sample volume introduced by user into test device.,,,

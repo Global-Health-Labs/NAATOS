@@ -1,0 +1,249 @@
+﻿MR ID,MR Status,Market Requirement (MR),PR ID,PR Status,Product Requirement (PR),PR Description,SR ID,SR Status,Subsystem Requirement (SR),SR Description
+MR-29,Accepted,Enable health care workers in primary health care to confirm the presence of pulmonary M. tuberculosis at the peripheral level during the same clinical encounter for effective linkage to patient care.,PR-40,Accepted,Time to result,NAATOS TB V1 must produce a result within 60 min (including sample prep time).,SR-344,Accepted,[PM] Time to result - amplification,"While ""system-run-amplification-hold"" sub-state is active, the PM shall maintain primary and secondary heating zone temperatures for a configurable heating duration (default 30 mins)"
+,,,,,,,SR-341,Accepted,[PM] Time to result - amplification ramp,"When ""system-run-amplification-heat"" sub-state begins, the PM shall ramp primary and secondary heating zone temperatures up to a configurable amplification temperature setpoint (default 65 °C) in under 2 min"
+,,,,,,,SR-307,Accepted,[PM] Time to result - measure time,The PM shall measure time continuously
+,,,,,,,SR-349,Accepted,[PM] Time to result - valve,"While ""system-run-valve-hold"" sub-state is active, the PM shall maintain secondary heating zone temperature for a configurable heating duration (default 5 mins)"
+,,,,,,,SR-347,Accepted,[PM] Time to result - valve ramp,"When ""system-run-valve-heat"" sub-state begins, the PM shall ramp secondary heating zone temperatures up to a configurable valve temperature setpoint (default 93 °C) in under 2 min"
+,,,,,,,SR-266,Accepted,[SPM] Time to result,The SPM shall measure time continuously
+,,,,,,,SR-218,Accepted,[SPM] Time to result,"When ""system-run-heat"" sub-state begins, the SPM shall ramp heating zone temperature up to a configurable temperature setpoint (default 95 °C) in under 2 min"
+,,,,,,,SR-220,Accepted,[SPM] Time to result,"While ""system-run-hold"" sub-state is active, the SPM shall maintain heating zone temperature for a configurable heating duration (default 4 mins)"
+,,,,,,,SR-233,Accepted,[SPM] Time to result,"While ""system-run-shake"" sub-state is active, the SPM shall maintain tube holder shaking speed for a configurable shaking duration (default 2 mins)"
+,,,,,,,SR-365,Accepted,[TC] Time to result - assay,"When the TC is inserted into the PM, the TC shall return a result in ≤ 47 min"
+MR-19,Accepted,Availability,PR-6,,Component availability,NAATOS TB V1 must use components and raw materials that can be procured from more than one supplier.,SR-330,Accepted,[PM] Component availability,The PM shall use components and raw materials that can be procured from more than one supplier
+,,,,,,,SR-387,Accepted,[SCC] Component availability,The SCC shall use components and raw materials that can be procured from more than one supplier
+,,,,,,,SR-292,Accepted,[SPM] Component availability,The SPM shall use components and raw materials that can be procured from more than one supplier
+,,,,,,,SR-386,Accepted,[STC] Component availability,The STC shall use components and raw materials that can be procured from more than one supplier
+,,,,,,,SR-361,Accepted,[TC] Component availability,The TC shall contain components and raw materials that can be procured from more than one supplier
+,,,PR-3,,Demand,NAATOS TB V1 must package kit components in quantities sufficient to fulfill the demand of testing services in target settings.,SR-415,Accepted,[SCC] Demand,The SCC shall be provided one per test kit
+,,,,,,,SR-442,Accepted,[STC] Demand,The STC shall be provided one per test kit
+,,,,,,,SR-369,Accepted,[TC] Demand,The TC shall be provided one per test kit
+,,,PR-4,,Manufacturability,NAATOS TB V1 must be manufactured at scale of 10 million tests per year.,SR-324,Accepted,[PM] Manufacturability,The PM shall be able to be manufactured at minimal volume of 2000 units per year
+,,,,,,,SR-385,Accepted,[SCC] Manufacturability,The SCC shall be able to be manufactured at minimal volume of 10 million units per year
+,,,,,,,SR-282,Accepted,[SPM] Manufacturability,The SPM shall be able to be manufactured at minimal volume of 2000 units per year
+,,,,,,,SR-384,Accepted,[STC] Manufacturability,The STC shall be able to be manufactured at minimal volume of 10 million units per year
+,,,,,,,SR-360,Accepted,[TC] Manufacturability,The TC shall be manufacturable at minimal volume of 10 million units per year
+,,,,,,,SR-455,Accepted,[TC] Manufacturability - LFA,The TC shall contain a lateral flow assay (LFA) strip
+,,,PR-5,,Multi-disease platform ,NAATOS TB V1 must be capable of supporting tests for other disease targets.,,,,
+MR-21,Accepted,Compliance with local rules and regulations,PR-14,,Data system standard,NAATOS TB V1 must comply with ISO IEC 62304 Medical Device Data Systems standard on manufacturing of the assay and system.,,,,
+,,,PR-10,,Electrical safety,NAATOS TB V1 must comply with IEC 61010 and 61326 or higher standards or regulations on electrical equipment for laboratory use.,SR-333,Accepted,[PM] Electrical safety - battery disconnect,"When the ""power"" switch is switched to off, the PM shall electrically disconnect the battery"
+,,,,,,,SR-313,Accepted,[PM] Electrical safety - IEC 61010-1,The PM shall comply with IEC 61010-1
+,,,,,,,SR-316,Accepted,[PM] Electrical safety - IEC 61010-2-101,The PM shall comply with IEC 61010-2-101
+,,,,,,,SR-317,Accepted,[PM] Electrical safety - IEC 61326-1,The PM shall comply with IEC 61326-1
+,,,,,,,SR-318,Accepted,[PM] Electrical safety - IEC 61326-2-6,The PM shall comply with IEC 61326-2-6
+,,,,,,,SR-239,Accepted,[SPM] Electrical safety - electrical disconnect,"When the ""power"" switch is switched to off, the SPM shall electrically disconnect the battery"
+,,,,,,,SR-271,Accepted,[SPM] Electrical safety - IEC 61010-1,The SPM shall comply with IEC 61010-1
+,,,,,,,SR-273,Accepted,[SPM] Electrical safety - IEC 61010-2-101,The SPM shall comply with IEC 61010-2-101
+,,,,,,,SR-274,Accepted,[SPM] Electrical safety - IEC 61326-1,The SPM shall comply with IEC 61326-1
+,,,,,,,SR-275,Accepted,[SPM] Electrical safety - IEC 61326-2-6,The SPM shall comply with IEC 61326-2-6
+,,,PR-11,,Labeling,"NAATOS TB V1 must comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification.",SR-320,Accepted,[PM] Labeling,"The PM shall comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification"
+,,,,,,,SR-277,Accepted,[SPM] Labeling,"The SPM shall comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification"
+,,,PR-15,,Manufacturing facility certification,NAATOS TB V1 must be manufactured in a facility certified and authorized under ISO 13485 or certified under MDSAP.,,,,
+,,,PR-12,,Regulatory,NAATOS TB V1 must comply with ISO EN 13485 or higher standards or regulations on manufacturing of assay and system.,,,,
+,,,PR-13,,WHO PQ compatible,NAATOS TB V1 must be capable of meeting the performance criteria defined in WHO TSS-17.,,,,
+MR-18,Accepted,Affordability,PR-2,,Additional costs,NAATOS TB V1 must operate without necessitating additional costs beyond its initial purchase including no capital costs for instrumentation.,,,,
+,,,PR-1,,Cost per test,"NAATOS TB V1 must not exceed cost per test of $5 USD. (Price of individual test is cost of consumables only and amortized capital costs of any instrumentation; after scale-up; ex works [manufacturing costs only, excluding shipping].)",SR-325,Accepted,[PM] Cost per test,The PM shall cost less than $200 EXW at required scale
+,,,,,,,SR-383,Accepted,[SCC] Cost per test,The SCC shall cost less than $0.80 EXW at required scale
+,,,,,,,SR-283,Accepted,[SPM] Cost per test,The SPM shall cost less than $200 EXW at required scale
+,,,,,,,SR-382,Accepted,[STC] Cost per test,The STC shall cost less than $1.00 EXW at required scale
+,,,,,,,SR-359,Accepted,[TC] Cost per test,The TC shall cost less than $3.00 EXW at required scale
+MR-25,Accepted,Durability under transport and storage,PR-32,,Cold chain conditions,NAATOS TB V1 must not require temperature control during transport and storage.,,,,
+,,,PR-35,,Storage and stability humidity,NAATOS TB V1 must demonstrate stability at 15% to 90% humidity for desired shelf life.,,,,
+,,,PR-34,,Storage stability,NAATOS TB V1 must not exceed required non-actionable rate after storage at 0 °C to 40 °C and at 15% to 90% RH for required shelf life in final packaging.,SR-434,Accepted,[STC] Storage stability,"While in transport and storage, the STC shall be sealed with an air tight seal to inhibit leakage and evaporation"
+,,,,,,,SR-380,Accepted,[TC] Storage stability,The TC shall not exceed required non-actionable rate after storage at 0 °C to 40 °C and at 15% to 90% RH for required shelf life in final packaging
+,,,PR-33,,Transport,NAATOS TB V1 must not exceed required non-actionable rate after transportation at 50 °C and 90% RH for 72 hours,SR-311,Accepted,[PM] Transport,The PM shall not be damaged during transport conditions of 50 °C and 90% RH for 72 hours
+,,,,,,,SR-355,Accepted,[PM] Transport - battery safety,"While the PM is being shipped, the battery shall be electrically disconnected"
+,,,,,,,SR-312,Accepted,[PM] Transport - regulations,"The PM shall comply with transportation regulations related to electronic devices containing batteries
+or
+The PM shall be tested in accordance with the UN Manual of Tests and Criteria Part III, Subsection 38.3"
+,,,,,,,SR-256,Accepted,[SPM] Packaging,"While the SPM is being shipped, the battery shall be electrically disconnected"
+,,,,,,,SR-269,Accepted,[SPM] Transport,The SPM shall not be damaged during transport conditions of 50 °C and 90% RH for 72 hours
+,,,,,,,SR-270,Accepted,[SPM] Transport,"The SPM shall comply with transportation regulations related to electronic devices containing batteries
+or
+The SPM shall be tested in accordance with the UN Manual of Tests and Criteria Part III, Subsection 38.3"
+MR-20,Accepted,Compatibility with health infrastructure,PR-9,,Mains power time,NAATOS TB V1 must require no more than 8 hours of mains power per day.,SR-303,Accepted,[PM] Mains power time,The PM shall take no longer than 6 hours to charge
+,,,,,,,SR-261,Accepted,[SPM] Mains power time,The SPM shall take no longer than 6 hours to charge
+,,,PR-7,,Power requirements,NAATOS TB V1 must not rely on mains power during test operation.,SR-336,Accepted,"[PM] Power requirements - ""battery-low"" state","While ""stand-by"" state is active, if battery SoC is below a configurable threshold, then the PM shall transition to ""battery-low"" state"
+,,,,,,,SR-296,Accepted,[PM] Power requirements - battery,The PM shall have a battery
+,,,,,,,SR-302,Accepted,[PM] Power requirements - compensation,The PM shall compensate for battery temperature during charge/discharge cycle
+,,,,,,,SR-328,Accepted,[PM] Power requirements - SoC,The PM shall measure battery state of charge (SoC)
+,,,,,,,SR-297,Accepted,[PM] Power requirements - USB-C,The PM battery shall be charged by USB-C
+,,,,,,,SR-245,Accepted,[SPM] Power requirements,The SPM shall detect USB plugged-in/unplugged state
+,,,,,,,SR-260,Accepted,[SPM] Power requirements,The SPM shall compensate for battery temperature during charge/discharge cycle
+,,,,,,,SR-243,Accepted,[SPM] Power requirements,The SPM shall measure battery state of charge (SoC)
+,,,,,,,SR-252,Accepted,[SPM] Power requirements,"While ""stand-by"" state is active, if battery SoC is below a configurable threshold, then the SPM shall transition to ""battery-low"" state"
+,,,,,,,SR-236,Accepted,[SPM] Power requirements,The SPM shall have a battery
+,,,,,,,SR-244,Accepted,[SPM] Power requirements,The SPM shall detect USB charging on/off state
+,,,PR-8,,Product workspace dimensions,"NAATOS TB V1 must fit on a table within a space ≤ 60 cm deep, 90 cm wide, and 45 cm high.",SR-323,Accepted,[PM] Product workspace dimensions,"The PM shall be no larger than 30 cm deep, 45 cm wide, and 45 cm high"
+,,,,,,,SR-389,Accepted,[SCC] Product workspace dimensions,"The SCC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"
+,,,,,,,SR-280,Accepted,[SPM] Product workspace dimensions,"The SPM shall be no larger than 30 cm deep, 45 cm wide, and 45 cm high"
+,,,,,,,SR-388,Accepted,[STC] Product workspace dimensions,"The STC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"
+,,,,,,,SR-362,Accepted,[TC] Product workspace dimensions,"The TC shall be no larger than 30 cm deep, 30 cm wide, and 45 cm high"
+MR-24,Accepted,Conformity with clinical workflows,PR-27,,Data display,NAATOS TB V1 must have a visual read out of the test result.,SR-392,Accepted,[TC] Data display,The TC shall contain LFA test and control lines for visual test result interpretation
+,,,PR-31,,Imaging-compatible read out,NAATOS TB V1 must present results compatible with imaging-based reader(s) [model(s) TBD] for electronic data recording.,SR-398,Accepted,[TC] Imaging-compatible read out,The TC shall present results compatible with imaging-based reader(s) [model(s) TBD] for electronic data recording
+,,,PR-28,,Patient identification,NAATOS TB V1 must include designated space to accurately record and display patient identifiers.,SR-394,Accepted,[STC] Patient identification,"The STC include designated space to accurately record and display patient identifiers that is writeable with gel pen, ballpoint pen, or volatile solvent markers and proof or resistant to moisture and wiping"
+,,,,,,,SR-446,Accepted,[STC] Test identification,"The STC shall contain a label that minimally identifies the product name, part name, part number, and STC expiration date"
+,,,,,,,SR-393,Accepted,[TC] Patient identification,"The TC shall include designated space to accurately record and display patient identifiers that is writeable with gel pen, ballpoint pen, or volatile solvent markers and proof or resistant to moisture and wiping"
+,,,,,,,SR-454,Accepted,[TC] Test identification,"The TC shall contain a label that minimally identifies the product name, part name, part number, and TC expiration date"
+,,,PR-29,,Post-opening stability,NAATOS TB V1 must have open package stability of at least 60 minutes in maximum required operating environment temperature and humidity.,SR-397,Accepted,[SCC] Post-opening stability,The SCC shall have open package stability of at least 60 minutes in maximum required operating environment temperature and humidity
+,,,,,,,SR-396,Accepted,[STC] Post-opening stability,The STC shall have open package stability of at least 60 minutes in maximum required operating environment temperature and humidity
+,,,,,,,SR-381,Accepted,[TC] Post-opening stability,The TC shall have open-package stability of at least 60 minutes in maximum required operating environment temperature and humidity
+,,,PR-25,,Random access,NAATOS TB V1 must offer random access capability to run parallel analyses of tests.,,,,
+,,,PR-26,,Sample capacity and throughput,NAATOS TB V1 must be able to perform more than one sample at the same time.,,,,
+,,,PR-24,,User interactions,NAATOS TB V1 must not require more than 3 user interactions after collecting the specimen and before recording the result.,SR-354,Accepted,[PM] User interactions,"While ""system-run-abort"" sub-state is active, when abort time elapses and test device is removed, the PM shall transition to ""stand-by"" state"
+,,,,,,,SR-334,Accepted,"[PM] User interactions - ""power-off"" state","When the ""power"" switch is switched to off, the PM shall transition to the ""power-off"" state"
+,,,,,,,SR-342,Accepted,[PM] User interactions - automate amplification hold,"While ""system-run-amplification-heat"" sub-state is active, when the amplification temperature setpoint - 3 °C is reached, the PM shall transition to the ""system-run-amplification-hold"" sub-state"
+,,,,,,,SR-339,Accepted,[PM] User interactions - automate amplification ramp,"When ""system-run"" state begins, the PM shall start in ""system-run-amplification-heat"" sub-state"
+,,,,,,,SR-353,Accepted,[PM] User interactions - automate return to stand-by,"While ""system-run-invalid"" sub-state is active or ""system-run-complete"" sub-state is active or (""system-run-abort"" sub-state is active and abort timer is elapsed), when test device is removed, the PM shall transition to ""stand-by"" state"
+,,,,,,,SR-337,Accepted,[PM] User interactions - automate system run,"While ""stand-by"" state is active and the lid is closed and battery SoC is above threshold, when the test device is inserted, the PM shall transition to ""system-run"" state"
+,,,,,,,SR-348,Accepted,[PM] User interactions - automate valve hold,"While ""system-run-valve-heat"" sub-state is active, when valve temperature setpoint - TBD °C is reached, the PM shall transition to the ""system-run-valve-hold"" sub-state"
+,,,,,,,SR-346,Accepted,[PM] User interactions - automate valve ramp,"While ""system-run-amplification-hold"" sub-state is active, when the amplification heating duration elapses, the PM shall transition to ""system-run-valve-heat"" sub-state"
+,,,,,,,SR-299,Accepted,[PM] User interactions - insertion alignment,The PM shall exclude incorrect alignment of test device
+,,,,,,,SR-301,Accepted,[PM] User interactions - insertion sensor config,The PM shall allow configuration of sensor threshold for test consumable insertion detection
+,,,,,,,SR-338,Accepted,[PM] User interactions - max temp lockout,"While ""stand-by"" state is active, if the heater zones are above a configurable minimum temperature lockout (default TBD °C), then the PM shall prevent transition to ""system-run"" state"
+,,,,,,,SR-293,Accepted,[PM] User interactions - power switch,"The PM shall have a ""power"" switch"
+,,,,,,,SR-352,Accepted,[PM] User interactions - removal,"While ""system-run-complete"" is active, when test device is removed, the PM shall transition to ""stand-by"" state"
+,,,,,,,SR-240,Accepted,[SPM] User interactions,"The SPM shall have a ""run"" button"
+,,,,,,,SR-241,Accepted,[SPM] User interactions,"While ""stand-by"" state is active and the lid is closed and the board temperature is < 60 °C and sufficient battery power is available, when the ""run"" button is pressed, the SPM shall transition to ""system-run"" state"
+,,,,,,,SR-250,Accepted,[SPM] User interactions,The SPM shall allow configuration of sensor threshold for lid open/close detection
+,,,,,,,SR-246,Accepted,[SPM] User interactions,The SPM shall detect lid open/close state
+,,,,,,,SR-253,Accepted,[SPM] User interactions,"When ""system-run-complete"" sub-state begins, the SPM shall transition to ""stand-by"" state"
+,,,,,,,SR-234,Accepted,[SPM] User interactions,"While ""system-run-shake"" sub-state is active, when a configurable shaking duration elapses, the SPM shall transition to ""run-complete"" sub-state"
+,,,,,,,SR-229,Accepted,[SPM] User interactions,"While ""system-run-shake"" sub-state is active, the SPM shall maintain tube holder shake speed using a configurable motor speed (default 3925 RPM / 60 s/min = 65 Hz shake speed)"
+,,,,,,,SR-228,Accepted,[SPM] User interactions,"While ""system-run-shake"" sub-state is active, the SPM shall shake tube holder with a minimum throw of 7 ± TBD mm"
+,,,,,,,SR-290,Accepted,[SPM] User interactions,"While ""system-run-shake"" sub-state is active, the SPM shall control the heating zone temperature to a configurable setpoint (default = 95 ºC)"
+,,,,,,,SR-227,Accepted,[SPM] User interactions,"While ""system-run-hold"" sub-state is active, when the heating duration elapses, the SPM shall transition to ""system-run-shake"" sub-state"
+,,,,,,,SR-219,Accepted,[SPM] User interactions,"While ""system-run-heat"" sub-state is active, when the temperature setpoint - TBD °C is reached, the SPM shall transition to the ""system-run-hold"" sub-state"
+,,,,,,,SR-217,Accepted,[SPM] User interactions,"When ""system-run"" state begins, the SPM shall start in ""system-run-heat"" sub-state"
+,,,,,,,SR-291,Accepted,"[SPM] User interactions - ""power-off"" state","When the ""power"" switch is switched to off, the SPM shall transition to the ""power-off"" state"
+,,,,,,,SR-237,Accepted,[SPM] User interactions - power switch,"The SPM shall have a ""power"" switch"
+,,,,,,,SR-358,Accepted,[TC] User interactions,The TC shall not require a user interaction to transfer between amplification and detection reactions
+,,,PR-30,,Visual read out,NAATOS TB V1 must present results for visual read out and manual data recording.,SR-391,Accepted,[TC] Visual read out,"The TC shall contain a transparent, colorless viewing window for visual test result interpretation"
+,,,PR-23,,Waste disposal - infectious,NAATOS TB V1 must render infectious samples biosafe such that they can be disposed of as non-infectious waste when appropriate per local rules and regulations.,SR-421,Accepted,[SCC] Waste disposal - infectious,The SCC shall be single use
+,,,,,,,SR-235,Accepted,[SPM] Waste disposal - infectious,"While ""system-run-shake"" sub-state is active, the SPM shall maintain sample temperature above 75 °C"
+,,,,,,,SR-242,Accepted,[SPM] Waste disposal - infectious,"While ""system-run"" state is active and ""system-run-heat"" or ""system-run-hold"" or ""system-run-shake"" sub-state is active, when the ""run"" button is pressed, the SPM shall transition to ""system-run-abort"" sub-state"
+,,,,,,,SR-258,Accepted,[SPM] Waste disposal - infectious,"While ""system-run"" state is active, if the lid is opened, then the SPM shall transition to ""system-run-abort"" sub-state"
+,,,,,,,SR-226,Accepted,[SPM] Waste disposal - infectious,"While ""system-run"" state is active, if heating zone exceeds a configurable max temperature, then the SPM shall transition to ""system-run-abort"" state"
+,,,,,,,SR-444,Accepted,[STC] Waste disposal - infectious,"When processed in the SPM, the STC shall render infectious samples biosafe such that they can be disposed of as non-infectious waste when appropriate per local rules and regulations"
+,,,,,,,SR-453,Accepted,[TC] Waste disposal - infectious,The TC shall be disposed of as non-infectious waste when appropriate per local rules and regulations
+MR-32,Accepted,Scalability to support patient throughput,PR-46,,Daily throughput,NAATOS TB V1 must be able to support a daily throughput of 10-25 tests per 6-hour day.,SR-332,Accepted,[PM] Daily throughput,"While using battery power at room temperature, when ""battery-full"" state is indicated, the PM shall run 6 tests before ""battery-low"" indication"
+,,,,,,,SR-259,Accepted,[SPM] Daily throughput,"While using battery power at room temperature, when ""battery-full"" state is indicated, the SPM shall run 24 tests before ""battery-low"" indication"
+MR-33,Accepted,Usability,PR-50,,Automate assay transfer,NAATOS TB V1 must automate assay transfer from amplification to detection.,SR-372,Accepted,[TC] Automate assay transfer,The TC shall contain a reversable fluidic barrier between amplification and detection reactions
+,,,PR-62,,External reagents,NAATOS TB V1 must use no more than two external reagents for sample preparation.,,,,
+,,,PR-54,,Indications,NAATOS TB V1 must visually communicate progress and completion of system processes.,SR-305,Accepted,[PM] Indications - access,"The PM shall prevent access to configuration or logs while the device is in ""system-run"" state."
+,,,,,,,SR-329,Accepted,[PM] Indications - configuration,The PM shall allow configurable indications (defined in Table Y) of states and sub-states via indicators
+,,,,,,,SR-340,Accepted,[PM] Indications - data logging,"While ""system-run"" state is active, the PM shall log events with UTC timestamps, including battery state, board temperature, and heating zone temperature"
+,,,,,,,SR-335,Accepted,[PM] Indications - event logging,"While ""power-off"" state is not active, the PM shall ad-hoc log events with UTC timestamps, including state start, state end, change in battery sufficient/insufficient charge state, and errors/alerts"
+,,,,,,,SR-304,Accepted,[PM] Indications - log file,The PM shall store a log file on non-volatile storage.
+,,,,,,,SR-306,Accepted,[PM] Indications - logging rate,The PM shall allow configuration of event logging rate
+,,,,,,,SR-263,Accepted,[SPM] Indications,"The SPM shall prevent access to configuration or logs while the device is in ""system-run"" state."
+,,,,,,,SR-264,Accepted,[SPM] Indications,"While ""system-run"" state is active, the SPM shall log events with UTC timestamps, including battery state, board temperature, heating zone temperature, and motor speed"
+,,,,,,,SR-257,Accepted,[SPM] Indications,The SPM shall allow configurable notifications (defined in Table X) of states and sub-states via indicators
+,,,,,,,SR-267,Accepted,[SPM] Indications,"While ""power-off"" state is not active, the SPM shall ad-hoc log events with UTC timestamps, including state start, state end, change in battery sufficient/insufficient charge state, and errors/alerts"
+,,,,,,,SR-262,Accepted,[SPM] Indications,The SPM shall store a log file on non-volatile storage.
+,,,,,,,SR-265,Accepted,[SPM] Indications,The SPM shall allow configuration of event logging rate
+,,,,,,,SR-450,Accepted,[TC] Indications,"When the TC is sealed, the TC shall visually indicate that it has been used (i.e., appear distinct from an unused TC)"
+,,,PR-52,,Language support,NAATOS TB V1 kit must include Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements.,SR-403,Accepted,[PM] Language support,The PM shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,,,,,SR-401,Accepted,[SCC] Language support,The SCC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,,,,,SR-402,Accepted,[SPM] Language support,The SPM shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,,,,,SR-400,Accepted,[STC] Language support,The STC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,,,,,SR-399,Accepted,[TC] Language support,The TC shall be included in the Instructions for Use (IFU) with in-country context and language and any language mandated by local regulatory or trade compliance requirements
+,,,PR-57,,Manual preparation of samples,NAATOS TB V1 must not require precise measuring of volume or time required for any step and should instead require number of drops or visual markers.,SR-435,Accepted,[STC] Manual preparation of samples - filter cap,The STC shall contain a filter of sufficient pore size to remove inert microbeads from solution when dispensing sample into TC
+,,,,,,,SR-439,Accepted,[STC] Manual preparation of samples - squeezable tube,The STC shall be made of squeezable material
+,,,,,,,SR-447,Accepted,[TC] Manual preparation of samples - LFA operation,"The TC shall accept sufficient volume of loaded sample required to operate the embedded LFA (i.e., to perform reagent rehydration and transport)"
+,,,,,,,SR-404,Accepted,[TC] Manual preparation of samples - sample introduction,"While the TC is loaded with sample from the STC, the TC shall not require precise measuring of sample volume"
+,,,PR-56,,Packaging,NAATOS TB V1 must be packaged to ensure protection and maintain product integrity.,SR-418,Accepted,[SCC] Packaging,The SCC shall be individually packaged
+,,,PR-55,,Portability,NAATOS TB V1 must be a hand transportable product that weighs less than < 1 kg.,SR-331,Accepted,[PM] Portability,The PM shall weigh ≤ 0.4 kg
+,,,,,,,SR-288,Accepted,[SPM] Portability,The SPM shall weigh ≤ 0.6 kg
+,,,PR-53,,Ready to use,NAATOS TB V1 must be ready to use without the need for additional components or accessories.,SR-423,Accepted,[SCC] Ready to use - SCC non-inhibition,The SCC shall not inhibit reactions in the STC or TC
+,,,,,,,SR-416,Accepted,[SCC] Ready to use - SCC with STC,The SCC shall have an integrated designated breakpoint within a distance from the end of the swab head that is less than the interior height of the STC
+,,,,,,,SR-436,Accepted,[STC] Ready to use,"The STC shall contain a resealable, leak-proof dropper cap that is compatible with direct sample transfer from STC to TC without any ancillary tools, consumables, aides, or additional user steps"
+,,,,,,,SR-437,Accepted,[STC] Ready to use - free-standing,The STC tube shall be free-standing on a flat surface and not require any type of rack or ancillary aid for proper function
+,,,,,,,SR-438,Accepted,[STC] Ready to use - STC integrity,"When heated to an internal liquid temperature of 95 +/- 2 °C, the STC shall not melt, deform, or leach reaction inhibitors"
+,,,,,,,SR-466,Accepted,[STC] Ready to use - STC with TC,The STC shall load sample into the TC at a mutually defined interface
+,,,,,,,SR-448,Accepted,[TC] Ready to use,"The TC shall load sample from the STC without any ancillary tools, consumables, aides, or additional user steps"
+,,,,,,,SR-452,Accepted,[TC] Ready to use - TC integrity,"When the TC is heated to required operating temperatures, the TC shall not melt, deform, or leaching reaction inhibitors"
+,,,,,,,SR-378,Accepted,[TC] Ready to use - TC with PM,The TC shall load into the PM at a mutually defined interface
+,,,PR-51,,Reagent integration,"NAATOS TB V1 must store all chemical and biological reagents required for completing all diagnostic steps of the assay must be integrated into single-use disposable(s), including reagents for amplification, lysis, detection, and internal controls.",SR-426,Accepted,[STC] Reagent integration - bead-beating,The STC shall contain inert microbeads to support bead-beating
+,,,,,,,SR-429,Accepted,[STC] Reagent integration - buffer flow rate,"The STC shall contain an aqueous buffer that is capable of transport in porous materials at a flow rate within 50% of Tris buffer, pH 8"
+,,,,,,,SR-428,Accepted,[STC] Reagent integration - buffer lysis compatibility,The STC shall contain an aqueous buffer that is compatible with bacterial cell lysis
+,,,,,,,SR-431,Accepted,[STC] Reagent integration - buffer reaction compatibility,The STC shall contain an aqueous buffer that does not inhibit reactions in the STC or TC
+,,,,,,,SR-430,Accepted,[STC] Reagent integration - buffer rehydration compatibility,The STC shall contain an aqueous buffer that is capable of rehydrating dried amplification reagents
+,,,,,,,SR-440,Accepted,[STC] Reagent integration - buffer single use,The STC shall contain a buffer fill volume sufficient for a single use only
+,,,,,,,SR-433,Accepted,[STC] Reagent integration - buffer temperature compatibility,The STC shall contain an aqueous buffer that is compatible with TC materials at temperatures ≤ 100 °C
+,,,,,,,SR-432,Accepted,[STC] Reagent integration - buffer valve compatibility,The STC shall contain an aqueous buffer that is compatible with any valves or valving materials contained within the test consumable at temperatures up to and including the max System temp.
+,,,,,,,SR-374,Accepted,[TC] No cold chain - amplification,"While the TC is not loaded with sample, the TC shall store dry amplification reagents"
+,,,,,,,SR-376,Accepted,[TC] No cold chain - detection,"While the TC has not been operated by the PM, the TC shall store dry detection reagents"
+,,,,,,,SR-458,Accepted,[TC] Reagent integration - IPC primers,The TC shall contain nucleic acid amplification reagents that amplify DNA control templates
+,,,,,,,SR-457,Accepted,[TC] Reagent integration - IS1080 primers,The TC shall contain nucleic acid amplification reagents that amplify the Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,,,,,SR-461,Accepted,[TC] Reagent integration - IS1081 capture,The TC shall contain detection reagents that capture amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,,,,,SR-464,Accepted,[TC] Reagent integration - IS1081 labels,The TC shall contain detection reagents that label amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS1081
+,,,,,,,SR-460,Accepted,[TC] Reagent integration - IS6110 capture,The TC shall contain detection reagents that capture amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS6110
+,,,,,,,SR-463,Accepted,[TC] Reagent integration - IS6110 labels,The TC shall contain detection reagents that label amplification products specific to Mycobacterium tuberculosis DNA insertion sequence IS6110
+,,,,,,,SR-456,Accepted,[TC] Reagent integration - IS6110 primers,The TC shall contain nucleic acid amplification reagents that amplify the Mycobacterium tuberculosis DNA insertion sequence IS6110
+,,,PR-59,,Sample type,NAATOS TB V1 must support testing with a noninvasive tongue swab.,SR-425,Accepted,[SCC] Sample type - access,The SCC shall have a shaft at least 5 cm long
+,,,,,,,SR-422,Accepted,[SCC] Sample type - bacteria,The SCC shall be compatible with bacterial testing
+,,,,,,,SR-417,Accepted,[SCC] Sample type - collection,"The SCC shall contain a regular, nylon-flocked head"
+,,,,,,,SR-424,Accepted,[SCC] Sample type - swab integrity,"While in the STC during processing by the SPM, the SCC shall retain structural integrity"
+,,,,,,,SR-414,Accepted,[SCC] Sample type - validation,The SCC shall be validated as a diagnostic specimen wherein it collects a sample from the dorsal area of the human tongue
+,,,,,,,SR-427,Accepted,[STC] Sample type,The STC shall be of sufficient height to completely enclose the swab head when sealed
+,,,PR-58,,Specimen use,NAATOS TB V1 must be able to provide a definitive diagnostic result from a single tongue swab specimen.,,,,
+,,,PR-61,,Training and education,NAATOS TB V1 must be able to be operated by a user after reading IFU.,SR-298,Accepted,[PM] Training and education,The PM shall provide graphics that indicate correct alignment of test device insertion
+,,,,,,,SR-247,Accepted,[SPM] Training and education,The SPM shall have graphics that indicate a method for opening the lid
+,,,,,,,SR-248,Accepted,[SPM] Training and education,The SPM shall have graphics that indicate the correct placement of the tube in the tube holder
+,,,PR-49,,User variability,NAATOS TB V1 must tolerate ±33% variability of lysed sample volume introduced by user into test device.,,,,
+MR-30,Accepted,Reliability,PR-42,,Calibration,NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,Accepted,[PM] Calibration,The PM shall operate without the need for calibration during its required lifespan
+,,,,,,,SR-294,Accepted,[PM] Calibration - amplification heater,The PM shall measure amplification heater temperature
+,,,,,,,SR-295,Accepted,[PM] Calibration - valve heater,The PM shall measure valve heater temperature
+,,,,,,,SR-232,Accepted,[SPM] Calibration,The SPM shall measure motor speed
+,,,,,,,SR-231,Accepted,[SPM] Calibration,The SPM shall measure heating zone temperature
+,,,,,,,SR-285,Accepted,[SPM] Calibration,The SPM shall operate without the need for calibration during its required lifespan
+,,,PR-41,,Maintenance,NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,Accepted,[PM] Maintenance,The PM shall operate without the need for maintenance during its required lifespan
+,,,,,,,SR-284,Accepted,[SPM] Maintenance,The SPM shall operate without the need for maintenance during its required lifespan
+MR-22,tongue swab)</br>(Accepted,Confidence in test performance (tongue swab),PR-16,,Amplification contamination,NAATOS TB V1 must prevent the escape of amplifiable material into the testing area.,SR-390,Accepted,[STC] Sample pre safety,"While in use within the SPM, the STC shall remain sealed"
+,,,,,,,SR-451,Accepted,[TC] Amplification contamination - post-seal,"When the TC is sealed, the TC shall be air-tight and leak-proof"
+,,,,,,,SR-449,Accepted,[TC] Amplification contamination - pre-seal,The TC shall provide a non-reversible seal to enclose sample after it is loaded
+,,,PR-18,,Analytical sensitivity (tongue swabs),NAATOS TB V1 must achieve an analytical sensitivity ≥ 80%.,,,,
+,,,PR-17,,Analytical specificity (tongue swabs),NAATOS TB V1 must achieve an analytical specificity ≥ 98%.,SR-364,Accepted,[TC] Analytical specificity,"When the TC is tested with samples that contain non-MTBC microorganisms, the TC shall return true negative results below 10^6 non-MTBC genomes/reaction"
+,,,PR-66,,Clinical sensitivity (tongue swabs),NAATOS TB V1 must achieve a clinical sensitivity ≥ 80%.,,,,
+,,,PR-67,,Clinical specificity (tongue swabs),NAATOS TB V1 must achieve a clinical specificity ≥ 98%.,,,,
+MR-23,#confidence-in-test-quality</br>(Accepted,Confidence in test quality](#confidence-in-test-quality,PR-65,,Controls,NAATOS TB V1 must use controls to account for any processing errors (from sample to result),SR-406,Accepted,[STC] Controls - sample prep,The STC shall use a control reagent to account for processing errors in sample preparation
+,,,,,,,SR-445,Accepted,[STC] Controls - SPC,"The STC shall contain a sample processing control (SPC) that can report failure of sample processing, amplification, or detection steps"
+,,,,,,,SR-459,Accepted,[TC] Controls - amplification,The TC shall contain nucleic acid amplification control reagents that are compatible with detection
+,,,,,,,SR-462,Accepted,[TC] Controls - detection capture,The TC shall contain detection reagents that capture amplification products specific to DNA control templates
+,,,,,,,SR-407,Accepted,[TC] Controls - detection flow,The TC shall contain detection reagents that capture flow control products
+,,,,,,,SR-465,Accepted,[TC] Controls - detection label,The TC shall contain detection reagents that label amplification products specific to DNA control templates
+,,,PR-22,,Non-actionable indication,NAATOS TB V1 must indicate to users when a test result is non-actionable (indeterminant or invalid).,SR-345,Accepted,[PM] Non-actionable indication - amplification abort,"While ""system-run-amplification-hold"" sub-state is active, if primary and secondary heating zones are not within 3 °C of amplification temperature setpoint, then the PM shall transition to the ""system-run-abort"" sub-state"
+,,,,,,,SR-343,Accepted,[PM] Non-actionable indication - amplification control abort,"While ""system-run-amplification-heat"" sub-state is active or ""system-run-amplification-hold"" sub-state is active or ""system-run-valve-heat"" sub-state is active or ""system-run-valve-hold"" sub-state is active, if heating zones exceed max temperature or test device is removed or board temperature > 60 ºC, then the PM shall transition to ""system-run-abort"" state"
+,,,,,,,SR-350,Accepted,[PM] Non-actionable indication - valve control abort,"While ""system-run-valve-hold"" sub-state is active, if secondary heating zone is not within TBD °C of valve temperature setpoint, then the PM shall transition to the ""system-run-abort"" sub-state"
+,,,,,,,SR-351,Accepted,[PM] Non-actionable indication - valve overheat abort,"While ""system-run-valve-hold"" sub-state is active, if primary heating zone is above 90 °C, then the PM shall transition to the ""system-run-abort"" sub-state"
+,,,,,,,SR-249,Accepted,[SPM] Non-actionable indication,"While ""system-run-abort"" sub-state is active, when a configurable abort duration elapses, the SPM shall transition to ""system-standby"" state"
+,,,,,,,SR-254,Accepted,[SPM] Non-actionable indication - max temp abort,"While ""system-run"" state is active, if the board temperature exceeds 60 °C, then the SPM shall transition to ""system-run-abort"" sub-state"
+,,,,,,,SR-230,Accepted,[SPM] Non-actionable indications - motor control abort,"While ""system-run-shake"" sub-state is active, if motor speed is not within TBD RPM of motor speed setpoint, then the SPM shall transition to ""system-run-abort"" sub-state"
+,,,,,,,SR-221,Accepted,[SPM] Non-actionable indications - temp control abort,"While ""system-run-hold"" sub-state is active, if heating zone is not within TBD °C of temperature setpoint, then the SPM shall transition to the ""system-run-abort"" sub-state"
+,,,PR-20,,Non-actionable rate,NAATOS TB V1 non-actionable (indeterminate + invalid) rate must not exceed 5%.,SR-380,Accepted,[TC] Storage stability,The TC shall not exceed required non-actionable rate after storage at 0 °C to 40 °C and at 15% to 90% RH for required shelf life in final packaging
+,,,PR-19,,Result validity window,NAATOS TB V1 must have a result validity window of 2 hours after test completion in which test signals allow one interpretation.,SR-357,Accepted,[TC] Result validity window,"When the TC is completed, the TC shall display the same result for at least 2 hours"
+,,,PR-21,,Shock and vibration resistance,NAATOS TB V1 must withstand resistance to shocks and vibrations from drops by users of 90 cm TBR height without performance failures.,SR-286,Accepted,[SPM] Shock and vibration resistance,"While ""system-run-shake"" state is active, and the SPM is suspended perpendicularly to the carriage direction, the SPM shall experience accelerations less than TBD m/s^2"
+MR-34,Accepted,Confidence in test safety,PR-63,,Burn safety,NAATOS TB V1 must not cause skin temperature above 60 °C after five seconds of contact to any surface.,SR-308,Accepted,[PM] Burn safety - exposure,The PM shall not have any areas accessible by a user's finger (defined as sphere of 1 cm diameter) with temperatures above 60 °C
+,,,,,,,SR-300,Accepted,[PM] Burn safety - max temp,The PM shall not exceed a configurable max temperature in heating zones
+,,,,,,,SR-287,Accepted,[SPM] Burn safety,The SPM shall not have any areas accessible by a user's finger (defined as sphere of 1 cm diameter) with temperatures above 60 °C
+,,,PR-60,,Sample prep safety,NAATOS TB V1 must reduce the risk of transmission of infectious agent of TB from potentially infectious sample to operator.,SR-420,Accepted,[SCC] Sample prep safety,The SCC shall be sterile packaged
+,,,,,,,SR-223,Accepted,[SPM] Sample prep safety,The SPM shall not melt the tube
+,,,,,,,SR-224,Accepted,[SPM] Sample prep safety - STC interface,The SPM shall fit a specified Tube (SPC) in a tube holder
+,,,,,,,SR-225,Accepted,[SPM] Sample prep safety - STC shaking,"While ""system-run-shake"" sub-state is active, the SPM shall not allow the tube to lose its fit in the tube holder"
+MR-31,Accepted,Robustness to environmental conditions,PR-43,,Contaminate and dust protection,"NAATOS TB V1 must be designed to effectively protect against dust and contaminants, ensuring its functionality and integrity.",SR-319,Accepted,[PM] Contaminate and dust protection,The PM shall comply with IEC 60529 at IP64 rating
+,,,,,,,SR-276,Accepted,[SPM] Contaminate and dust protection,The SPM shall comply with IEC 60529 at IP64 rating
+,,,PR-44,,Operating humidity level,NAATOS TB V1 must operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate.,SR-309,Accepted,[PM] Operating humidity level,The PM shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+,,,,,,,SR-268,Accepted,[SPM] Operating humidity level,The SPM shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+,,,,,,,SR-370,Accepted,[TC] Operating humidity level,The TC shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+,,,PR-45,,Operating temperature,NAATOS TB V1 must operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate.,SR-310,Accepted,[PM] Operating temperature,The PM shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate
+,,,,,,,SR-289,Accepted,[SPM] Operating temperature,The SPM shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate
+,,,,,,,SR-371,Accepted,[TC] Operating temperature,The TC shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate 
+MR-27,Accepted,Longevity,PR-38,,Cycle life,"NAATOS TB V1 must have a cycle life of 12,000 tests.",SR-322,Accepted,[PM] Cycle life,"The PM shall have a use life of 12,000 cycles"
+,,,,,,,SR-279,Accepted,[SPM] Cycle life,"The SPM shall have a use life of 12,000 cycles"
+,,,PR-39,,Single-use consumable lifespan,NAATOS TB V1 must have a lifespan ≥18 months for any single-use consumables.,SR-419,Accepted,[SCC] Single-use consumable lifespan,The SCC shall have a packaged shelf life of at least 18 months from date of manufacture
+,,,,,,,SR-441,Accepted,[STC] Single-use consumable lifespan,The STC shall have a packaged stability of no less than 2 years when stored at the maximum environment temperature and humidity storage conditions
+,,,,,,,SR-379,Accepted,[TC] Single-use consumable lifespan,The TC shall have packaged stability of no less than 2 years when stored at the maximum environment temperature and humidity storage conditions
+MR-26,Accepted,Environmental responsibility,PR-37,,Instrumentation lifespan,NAATOS TB V1 must have a lifespan ≥24 months for any instrumentation (no calibration or servicing).,SR-321,Accepted,[PM] Instrumentation lifespan,The PM shall have a shelf life of 2 y
+,,,,,,,SR-278,Accepted,[SPM] Instrumentation lifespan,The SPM shall have a shelf life of 2 y
+,,,PR-36,,Waste disposal - solid,NAATOS TB V1 must be disposable via simple trash; recyclable or compostable for plastics and consumables.,,,,
+MR-28,Deferred,Minimal instrumentation,,,,,,,,

@@ -1,0 +1,7 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-2,Additional costs</br>(Obsolete),NAATOS TB V1 must operate without necessitating additional costs beyond its initial purchase including no capital costs for instrumentation.,,,
+PR-1,Cost per test</br>(Accepted),"NAATOS TB V1 must not exceed cost per test of $5 USD. (Price of individual test is cost of consumables only and amortized capital costs of any instrumentation; after scale-up; ex works [manufacturing costs only, excluding shipping].)",SR-325,[PM] Cost per test</br>(Accepted),The PM shall cost less than $200 EXW at required scale
+,,,SR-383,[SCC] Cost per test</br>(Accepted),The SCC shall cost less than $0.80 EXW at required scale
+,,,SR-283,[SPM] Cost per test</br>(Accepted),The SPM shall cost less than $200 EXW at required scale
+,,,SR-382,[STC] Cost per test</br>(Accepted),The STC shall cost less than $1.00 EXW at required scale
+,,,SR-359,[TC] Cost per test</br>(Accepted),The TC shall cost less than $3.00 EXW at required scale

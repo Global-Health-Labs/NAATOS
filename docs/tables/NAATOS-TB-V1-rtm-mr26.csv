@@ -1,0 +1,4 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-37,Instrumentation lifespan</br>(Accepted),NAATOS TB V1 must have a lifespan ≥24 months for any instrumentation (no calibration or servicing).,SR-321,[PM] Instrumentation lifespan</br>(Accepted),The PM shall have a shelf life of 2 y
+,,,SR-278,[SPM] Instrumentation lifespan</br>(Accepted),The SPM shall have a shelf life of 2 y
+PR-36,Waste disposal - solid</br>(Obsolete),NAATOS TB V1 must be disposable via simple trash; recyclable or compostable for plastics and consumables.,,,

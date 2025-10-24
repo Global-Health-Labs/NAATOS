@@ -1,0 +1,16 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-6,Component availability</br>(Accepted),NAATOS TB V1 must use components and raw materials that can be procured from more than one supplier.,SR-330,[PM] Component availability</br>(Accepted),The PM shall use components and raw materials that can be procured from more than one supplier
+,,,SR-387,[SCC] Component availability</br>(Accepted),The SCC shall use components and raw materials that can be procured from more than one supplier
+,,,SR-292,[SPM] Component availability</br>(Accepted),The SPM shall use components and raw materials that can be procured from more than one supplier
+,,,SR-386,[STC] Component availability</br>(Accepted),The STC shall use components and raw materials that can be procured from more than one supplier
+,,,SR-361,[TC] Component availability</br>(Accepted),The TC shall contain components and raw materials that can be procured from more than one supplier
+PR-3,Demand</br>(Deferred),NAATOS TB V1 must package kit components in quantities sufficient to fulfill the demand of testing services in target settings.,SR-415,[SCC] Demand</br>(Accepted),The SCC shall be provided one per test kit
+,,,SR-442,[STC] Demand</br>(Accepted),The STC shall be provided one per test kit
+,,,SR-369,[TC] Demand</br>(Accepted),The TC shall be provided one per test kit
+PR-4,Manufacturability</br>(Accepted),NAATOS TB V1 must be manufactured at scale of 10 million tests per year.,SR-324,[PM] Manufacturability</br>(Accepted),The PM shall be able to be manufactured at minimal volume of 2000 units per year
+,,,SR-385,[SCC] Manufacturability</br>(Accepted),The SCC shall be able to be manufactured at minimal volume of 10 million units per year
+,,,SR-282,[SPM] Manufacturability</br>(Accepted),The SPM shall be able to be manufactured at minimal volume of 2000 units per year
+,,,SR-384,[STC] Manufacturability</br>(Accepted),The STC shall be able to be manufactured at minimal volume of 10 million units per year
+,,,SR-360,[TC] Manufacturability</br>(Accepted),The TC shall be manufacturable at minimal volume of 10 million units per year
+,,,SR-455,[TC] Manufacturability - LFA</br>(Accepted),The TC shall contain a lateral flow assay (LFA) strip
+PR-5,Multi-disease platform </br>(Deferred),NAATOS TB V1 must be capable of supporting tests for other disease targets.,,,

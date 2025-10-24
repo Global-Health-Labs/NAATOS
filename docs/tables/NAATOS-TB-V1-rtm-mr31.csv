@@ -1,0 +1,9 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-43,Contaminate and dust protection</br>(Accepted),"NAATOS TB V1 must be designed to effectively protect against dust and contaminants, ensuring its functionality and integrity.",SR-319,[PM] Contaminate and dust protection</br>(Accepted),The PM shall comply with IEC 60529 at IP64 rating
+,,,SR-276,[SPM] Contaminate and dust protection</br>(Accepted),The SPM shall comply with IEC 60529 at IP64 rating
+PR-44,Operating humidity level</br>(Accepted),NAATOS TB V1 must operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate.,SR-309,[PM] Operating humidity level</br>(Accepted),The PM shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+,,,SR-268,[SPM] Operating humidity level</br>(Accepted),The SPM shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+,,,SR-370,[TC] Operating humidity level</br>(Accepted),The TC shall operate within the humidity range of 70% to 90% non-condensing humidity without exceeding the required non-actionable rate
+PR-45,Operating temperature</br>(Accepted),NAATOS TB V1 must operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate.,SR-310,[PM] Operating temperature</br>(Accepted),The PM shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate
+,,,SR-289,[SPM] Operating temperature</br>(Accepted),The SPM shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate
+,,,SR-371,[TC] Operating temperature</br>(Accepted),The TC shall operate within a temperature range of +5 °C to +45 °C without exceeding the required non-actionable rate 
