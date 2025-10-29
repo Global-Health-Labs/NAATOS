@@ -281,19 +281,19 @@ a. The low sensitivity of microscopy means a significant number of cases are mis
     - Author: World Health Organization
     - Detail: Public consultation - survey conducted by the WHO Global TB Programme to inform the updated TPP.
     - Date: August 2023
-- [NAATOS TB V1 VOC Assessment](./reports/NAATOS%20TB%20V1%20Formative%20Feedback%201%20VOC%20and%20Market%20Access%20MAA.pdf)
+- [NAATOS TB V1 VOC Assessment](./reports/NAATOS-TB-V1_Formative-Feedback-1_VOC-and-Market-Access_MAA.pdf)
     - Author: Market Access Africa
     - Detail: The voice of customer (VOC) analysis explored key thematic priorities (market landscape, policy considerations & regulatory pathways, product insights, and deployment considerations) for a successful launch in the public and private sector in 4 first tier countries and 4 second tier countries.
         - First tier countries - India, Nigeria, South Africa, Kenya
         - Second tier countries - DRC, Uganda, Zimbabwe, and Botswana
     - Date: December 2023
-- [NAATOS TB V1 VOC Assessment Second Tier Countries](./reports/NAATOS%20TB%20V1%20Formative%20Feedback%201%20VOC%20and%20Market%20Access%20Second%20Tier%20Countries%20MAA.pdf)
+- [NAATOS TB V1 VOC Assessment Second Tier Countries](./reports/NAATOS-TB-V1_Formative-Feedback-1_VOC-and-Market-Access-Second-Tier-Countries_MAA.pdf)
     - Author: Market Access Africa
     - Detail: The voice of customer (VOC) analysis explored key thematic priorities (market landscape, policy considerations & regulatory pathways, product insights, and deployment considerations) for a successful launch in the public and private sector in 4 first tier countries and 4 second tier countries.
         - First tier countries - India, Nigeria, South Africa, Kenya
         - Second tier countries - DRC, Uganda, Zimbabwe, and Botswana
     - Date: December 2023
-- [NAATOS TB V1 Regulatory Pathway Assessment](./reports/NAATOS%20TB%20V1%20Formative%20Feedback%201%20Regulatory%20MAA.pdf)
+- [NAATOS TB V1 Regulatory Pathway Assessment](./reports/NAATOS-TB-V1_Formative-Feedback-1_Regulatory_MAA.pdf)
     - Author: Market Access Africa
     - Detail: The voice of customer (VOC) analysis explored key thematic priorities (market landscape, policy considerations & regulatory pathways, product insights, and deployment considerations) for a successful launch in the public and private sector in 4 first tier countries and 4 second tier countries.
         - Authors: Market Access Africa

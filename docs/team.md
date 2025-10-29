@@ -1,12 +1,10 @@
 # Project Team
 
-## Contributors
-
-### Global Health Labs (GHL)
+## Global Health Labs (GHL)
 
 GHL is the lead developer of NAATOS, having invested in several areas of early stage research related to new tools and technologies for diagnosis of tuberculosis (and other endemic infectious diseases) in low-resource settings.
 
-#### Research and Development
+### Research and Development
 
 - Luis Alonzo [:material-linkedin:](https://www.linkedin.com/in/luisalonzo/){:target="_blank"}
 - Lex Ball [:material-linkedin:](https://www.linkedin.com/in/lex-ball-a0041219/){:target="_blank"}
@@ -42,36 +40,44 @@ GHL is the lead developer of NAATOS, having invested in several areas of early s
 - Wenbo Wang [:material-linkedin:](https://www.linkedin.com/in/wenbowang1pe/){:target="_blank"}
 - Xiaohong Zhang [:material-linkedin:](https://www.linkedin.com/in/xiaohong-zhang22111/){:target="_blank"}
 
-#### Product Management
+### Product Management
 
 - Isabel Izek [:material-linkedin:](https://www.linkedin.com/in/isabel-izek/){:target="_blank"}
 
-#### Program Management
+### Program Management
 
 - Nikki Sanchez Comeau [:material-linkedin:](https://www.linkedin.com/in/nikkisanchezcomeau/){:target="_blank"}
 
-#### Clinical
+### Clinical
 
 - Julian Atim [:material-linkedin:](https://www.linkedin.com/in/jatim/){:target="_blank"}
 - Christine Bachman [:material-linkedin:](https://www.linkedin.com/in/cmbachman/){:target="_blank"}
 
-#### Legal
+### Legal
 
 - Davina Inslee [:material-linkedin:](https://www.linkedin.com/in/davina-childs-inslee-0268a93/){:target="_blank"}
 - Kris Weafer [:material-linkedin:](https://www.linkedin.com/in/kristiest/){:target="_blank"}
 
-#### Quality
+### Quality
 
 - Stacy Hyatt [:material-linkedin:](https://www.linkedin.com/in/stacy-hyatt/){:target="_blank"}
 - Cheryl Taylor [:material-linkedin:](https://www.linkedin.com/in/cheryl-taylor-880a48/){:target="_blank"}
 
-#### Program Strategy
+### Program Strategy
 
 - Sharon Bergquist [:material-linkedin:](https://www.linkedin.com/in/sharonbergquist/){:target="_blank"}
 - Carlos Gonzalez [:material-linkedin:](https://www.linkedin.com/in/cbgonz%C3%A1lezphd/){:target="_blank"}
 - Rob Jenison [:material-linkedin:](https://www.linkedin.com/in/rob-jenison-9540018/){:target="_blank"}
 - Steve Kern [:material-linkedin:](https://www.linkedin.com/in/se-kern/){:target="_blank"}
 - Bernhard Weigl [:material-linkedin:](https://www.linkedin.com/in/bernhard-h-weigl/){:target="_blank"}
+
+## Partners
+
+### ACT-IVD
+
+ACT-IVD is the Regulatory consultant for NAATOS.
+
+- Robyn Meurant [:material-linkedin:](https://www.linkedin.com/in/robyn-meurant-act-ivd/){:target="_blank"}
 
 ### [Central Centerless Grinding (CCG)](http://ccgonline.net/){:target="_blank"} / [Scitus Engineering](http://scitusengineering.com/){:target="_blank"}
 
@@ -109,17 +115,6 @@ GHL is the lead developer of NAATOS, having invested in several areas of early s
 
 - Mike Best is the Product Design partner for NAATOS TB V1.
 
-### [Odic](https://odic.com/){:target="_blank"}
-
-[Odic](https://odic.com/){:target="_blank"} is the Electronics Design partner for the NAATOS TB V1 modules.
-
-- Rob Filipkowski[^Odic]
-- Liam Sullivan
-- Ian O’Neil
-- Dylan Derose
-
-## Consultants & Vendors
-
 ### [Health Innovation Advisors (HIA)](https://innovationadvisors.org/){:target="_blank"}
 
 [HIA](https://innovationadvisors.org/){:target="_blank"} is the User Research and Implementation Science consultant for NAATOS.
@@ -148,6 +143,15 @@ GHL is the lead developer of NAATOS, having invested in several areas of early s
 - Rye Mecum
 - Derek Spencer
 - Hanh Tran
+
+### [Odic](https://odic.com/){:target="_blank"}
+
+[Odic](https://odic.com/){:target="_blank"} is the Electronics Design partner for the NAATOS TB V1 modules.
+
+- Rob Filipkowski[^Odic]
+- Liam Sullivan
+- Ian O’Neil
+- Dylan Derose
 
 ### [Vantage MedTech](https://vantagemedtech.com/){:target="_blank"}
 
