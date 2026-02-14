@@ -1,0 +1,11 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-32,Cold chain conditions</br>(Obsolete),NAATOS TB V1 must not require temperature control during transport and storage.,,,
+PR-35,Storage and stability humidity</br>(Obsolete),NAATOS TB V1 must demonstrate stability at 15% to 90% humidity for desired shelf life.,,,
+PR-34,Storage stability</br>(Accepted),NAATOS TB V1 must not exceed required non-actionable rate after storage at 0 °C to 40 °C and at 15% to 90% RH for required shelf life in final packaging.,SR-434,[STC] Storage stability</br>(Accepted),"While in transport and storage, the STC shall be sealed with an air tight seal to inhibit leakage and evaporation"
+,,,SR-380,[TC] Storage stability</br>(Accepted),The TC shall not exceed required non-actionable rate after storage at 0 °C to 40 °C and at 15% to 90% RH for required shelf life in final packaging
+PR-33,Transport</br>(Accepted),NAATOS TB V1 must not exceed required non-actionable rate after transportation at 50 °C and 90% RH for 72 hours,SR-311,[PM] Transport</br>(Accepted),The PM shall not be damaged during transport conditions of 50 °C and 90% RH for 72 hours
+,,,SR-355,[PM] Transport - battery safety</br>(Accepted),"While the PM is being shipped, the battery shall be electrically disconnected"
+,,,SR-312,[PM] Transport - regulations</br>(Accepted),"The PM shall comply with transportation regulations related to electronic devices containing batteries</br>or</br>The PM shall be tested in accordance with the UN Manual of Tests and Criteria Part III, Subsection 38.3"
+,,,SR-256,[SPM] Packaging</br>(Accepted),"While the SPM is being shipped, the battery shall be electrically disconnected"
+,,,SR-269,[SPM] Transport</br>(Accepted),The SPM shall not be damaged during transport conditions of 50 °C and 90% RH for 72 hours
+,,,SR-270,[SPM] Transport</br>(Accepted),"The SPM shall comply with transportation regulations related to electronic devices containing batteries</br>or</br>The SPM shall be tested in accordance with the UN Manual of Tests and Criteria Part III, Subsection 38.3"

@@ -1,0 +1,8 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-16,Amplification contamination</br>(Accepted),NAATOS TB V1 must prevent the escape of amplifiable material into the testing area.,SR-390,[STC] Sample pre safety</br>(Accepted),"While in use within the SPM, the STC shall remain sealed"
+,,,SR-451,[TC] Amplification contamination - post-seal</br>(Accepted),"When the TC is sealed, the TC shall be air-tight and leak-proof"
+,,,SR-449,[TC] Amplification contamination - pre-seal</br>(Accepted),The TC shall provide a non-reversible seal to enclose sample after it is loaded
+PR-18,Analytical sensitivity (tongue swabs)</br>(Obsolete),NAATOS TB V1 must achieve an analytical sensitivity ≥ 80%.,,,
+PR-17,Analytical specificity (tongue swabs)</br>(Accepted),NAATOS TB V1 must achieve an analytical specificity ≥ 98%.,SR-364,[TC] Analytical specificity</br>(Accepted),"When the TC is tested with samples that contain non-MTBC microorganisms, the TC shall return true negative results below 10^6 non-MTBC genomes/reaction"
+PR-66,Clinical sensitivity (tongue swabs)</br>(Deferred),NAATOS TB V1 must achieve a clinical sensitivity ≥ 80%.,,,
+PR-67,Clinical specificity (tongue swabs)</br>(Deferred),NAATOS TB V1 must achieve a clinical specificity ≥ 98%.,,,

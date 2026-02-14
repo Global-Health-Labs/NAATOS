@@ -1,0 +1,17 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-14,Data system standard</br>(Deferred),NAATOS TB V1 must comply with ISO IEC 62304 Medical Device Data Systems standard on manufacturing of the assay and system.,,,
+PR-10,Electrical safety</br>(Accepted),NAATOS TB V1 must comply with IEC 61010 and 61326 or higher standards or regulations on electrical equipment for laboratory use.,SR-333,[PM] Electrical safety - battery disconnect</br>(Accepted),"When the ""power"" switch is switched to off, the PM shall electrically disconnect the battery"
+,,,SR-313,[PM] Electrical safety - IEC 61010-1</br>(Accepted),The PM shall comply with IEC 61010-1
+,,,SR-316,[PM] Electrical safety - IEC 61010-2-101</br>(Accepted),The PM shall comply with IEC 61010-2-101
+,,,SR-317,[PM] Electrical safety - IEC 61326-1</br>(Accepted),The PM shall comply with IEC 61326-1
+,,,SR-318,[PM] Electrical safety - IEC 61326-2-6</br>(Accepted),The PM shall comply with IEC 61326-2-6
+,,,SR-239,[SPM] Electrical safety - electrical disconnect</br>(Accepted),"When the ""power"" switch is switched to off, the SPM shall electrically disconnect the battery"
+,,,SR-271,[SPM] Electrical safety - IEC 61010-1</br>(Accepted),The SPM shall comply with IEC 61010-1
+,,,SR-273,[SPM] Electrical safety - IEC 61010-2-101</br>(Accepted),The SPM shall comply with IEC 61010-2-101
+,,,SR-274,[SPM] Electrical safety - IEC 61326-1</br>(Accepted),The SPM shall comply with IEC 61326-1
+,,,SR-275,[SPM] Electrical safety - IEC 61326-2-6</br>(Accepted),The SPM shall comply with IEC 61326-2-6
+PR-11,Labeling</br>(Obsolete),"NAATOS TB V1 must comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification.",SR-320,[PM] Labeling</br>(Accepted),"The PM shall comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification"
+,,,SR-277,[SPM] Labeling</br>(Accepted),"The SPM shall comply with ISO 18113-1 for labeling that provides necessary information for proper use, handling, and identification"
+PR-15,Manufacturing facility certification</br>(Deferred),NAATOS TB V1 must be manufactured in a facility certified and authorized under ISO 13485 or certified under MDSAP.,,,
+PR-12,Regulatory</br>(Deferred),NAATOS TB V1 must comply with ISO EN 13485 or higher standards or regulations on manufacturing of assay and system.,,,
+PR-13,WHO PQ compatible</br>(Obsolete),NAATOS TB V1 must be capable of meeting the performance criteria defined in WHO TSS-17.,,,

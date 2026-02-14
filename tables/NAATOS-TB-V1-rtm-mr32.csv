@@ -1,0 +1,3 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-46,Daily throughput</br>(Accepted),NAATOS TB V1 must be able to support a daily throughput of 10-25 tests per 6-hour day.,SR-332,[PM] Daily throughput</br>(Accepted),"While using battery power at room temperature, when ""battery-full"" state is indicated, the PM shall run 6 tests before ""battery-low"" indication"
+,,,SR-259,[SPM] Daily throughput</br>(Accepted),"While using battery power at room temperature, when ""battery-full"" state is indicated, the SPM shall run 24 tests before ""battery-low"" indication"

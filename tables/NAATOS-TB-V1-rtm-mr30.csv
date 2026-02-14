@@ -1,0 +1,65 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan
+PR-42,Calibration</br>(Accepted),NAATOS TB V1 must operate without the need for calibration during its intended lifespan.,SR-327,[PM] Calibration</br>(Accepted),The PM shall operate without the need for calibration during its required lifespan
+,,,SR-294,[PM] Calibration - amplification heater</br>(Accepted),The PM shall measure amplification heater temperature
+,,,SR-295,[PM] Calibration - valve heater</br>(Accepted),The PM shall measure valve heater temperature
+,,,SR-232,[SPM] Calibration</br>(Accepted),The SPM shall measure motor speed
+,,,SR-231,[SPM] Calibration</br>(Accepted),The SPM shall measure heating zone temperature
+,,,SR-285,[SPM] Calibration</br>(Accepted),The SPM shall operate without the need for calibration during its required lifespan
+PR-41,Maintenance</br>(Accepted),NAATOS TB V1 must operate without the need for maintenance during its intended lifespan.,SR-326,[PM] Maintenance</br>(Accepted),The PM shall operate without the need for maintenance during its required lifespan
+,,,SR-284,[SPM] Maintenance</br>(Accepted),The SPM shall operate without the need for maintenance during its required lifespan

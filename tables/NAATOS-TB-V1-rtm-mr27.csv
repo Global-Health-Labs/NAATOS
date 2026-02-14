@@ -1,0 +1,6 @@
+﻿PR ID,Product Requirement (PR),PR Description,SR ID,System Requirement (SR),SR Description
+PR-38,Cycle life</br>(Accepted),"NAATOS TB V1 must have a cycle life of 12,000 tests.",SR-322,[PM] Cycle life</br>(Accepted),"The PM shall have a use life of 12,000 cycles"
+,,,SR-279,[SPM] Cycle life</br>(Accepted),"The SPM shall have a use life of 12,000 cycles"
+PR-39,Single-use consumable lifespan</br>(Accepted),NAATOS TB V1 must have a lifespan ≥18 months for any single-use consumables.,SR-419,[SCC] Single-use consumable lifespan</br>(Accepted),The SCC shall have a packaged shelf life of at least 18 months from date of manufacture
+,,,SR-441,[STC] Single-use consumable lifespan</br>(Accepted),The STC shall have a packaged stability of no less than 2 years when stored at the maximum environment temperature and humidity storage conditions
+,,,SR-379,[TC] Single-use consumable lifespan</br>(Accepted),The TC shall have packaged stability of no less than 2 years when stored at the maximum environment temperature and humidity storage conditions
