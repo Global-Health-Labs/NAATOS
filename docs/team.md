@@ -71,7 +71,7 @@ GHL is the lead developer of NAATOS, having invested in several areas of early s
 - Steve Kern [:material-linkedin:](https://www.linkedin.com/in/se-kern/){:target="_blank"}
 - Bernhard Weigl [:material-linkedin:](https://www.linkedin.com/in/bernhard-h-weigl/){:target="_blank"}
 
-## Partners
+## Collaborators
 
 ### ACT-IVD
 
@@ -96,7 +96,7 @@ ACT-IVD is the Regulatory consultant for NAATOS.
 
 ### [Global Access Diagnostics (GADx)](https://www.globalaccessdx.com/){:target="_blank"}
 
-[GADx](https://www.globalaccessdx.com/){:target="_blank"} is the Research and Devlopment partner for NAATOS.
+[GADx](https://www.globalaccessdx.com/){:target="_blank"} is the Research and Development partner for NAATOS.
 
 - Lucy Beales
 - Mike Best

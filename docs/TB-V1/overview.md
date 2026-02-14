@@ -1,6 +1,6 @@
 # NAATOS TB V1
 
-## Overview
+## System Description
 
 <table>
 <tr><th colspan="2">NAATOS TB V1 Product Overview</th></tr>
@@ -100,7 +100,7 @@ The TC design is intended to minimize overall system cost of an automated, combi
 - The laminated housing provides the mechanical structure to enable error-free introduction of prepared sample, to hold the LFA strip, to seal the amplification reaction behind the wax valve, to allow air recirculation during detection, and to provide a biosafe enclosure. The laminate is made of interlaid layers of plastic sheeting and pressure sensitive adhesives, which convert 2D sections into a 3D layout that implements these functions.
 - The sample introduction zone contains a plastic tab above a backed adhesive seal with an inlet port, which is terminated by a positive stop feature within a sample well that guides fluid into the upstream end (i.e., distributor pad) of the LFA. The inlet port is only slightly larger than the dispensing end of the dropper tube to minimize the risk of sample escaping the test device during sample introduction from the dropper tube to the test device.
 - The amplification zone is tight to the LFA to discourage capillary flow out of the amplification zone. The lowest layer of the laminate is designed to allow efficient heat transfer to the amplification zone and wax valve.
-- The wax valve zone is tight to the wax valve in the LFA to enable a complete fluidic seal during amplification. Small indentations into the sides of the wax valve, slight compression above the wax valve, and a spring arm to one side of the wax valve help to create the seal during installation of the LFA into the laminate housing during final assembly of the test device. 
+- The wax valve zone is tight to the wax valve in the LFA to enable a complete fluidic seal during amplification. Small indentations into the sides of the wax valve, slight compression above the wax valve, and a spring arm to one side of the wax valve help to create the seal during installation of the LFA into the laminate housing during final assembly of the test device.
 - The venting system includes a recirculating vent, which prevents an air spring from forming downstream of the wax valve that could impede flow during detection, and a hydrophobic barrier to prevent liquid from blocking the air channel, which takes the form of a mesh of ~100–200 µm holes on a spacing of ~400 µm such that the surface tension of the liquid prevents it from wicking into the vent.
 
 ### Power Module (PM)
